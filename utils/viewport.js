@@ -16,7 +16,7 @@ export function offVierpotResize(){
     window.removeEventListener('resize', callback)
 }
 
-export function ViewportSize($el) {
+export function viewportSize($el) {
     setViewportSize($el)
     onVierpotResize(() => setViewportSize($el))
 
